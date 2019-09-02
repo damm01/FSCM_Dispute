@@ -1,6 +1,6 @@
 *---------------------------------------------------------------------*
 *    program for:   VIEWFRAME_ZVFIFSCM_ACTION
-*   generation date: 05.08.2019 at 17:05:19
+*   generation date: 28.08.2019 at 17:31:45
 *   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 FUNCTION VIEWFRAME_ZVFIFSCM_ACTION     .

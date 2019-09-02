@@ -1,6 +1,6 @@
 *---------------------------------------------------------------------*
 *    view related PAI modules
-*   generation date: 05.08.2019 at 17:05:19
+*   generation date: 28.08.2019 at 17:36:02
 *   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 *...processing: ZVFIFSCM_ACTION.................................*

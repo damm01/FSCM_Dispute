@@ -6,6 +6,7 @@
     <NAME>LZVFIFSCM_CAT_REAT00</NAME>
     <SUBC>I</SUBC>
     <RLOAD>E</RLOAD>
+    <UCCHECK>X</UCCHECK>
    </PROGDIR>
   </asx:values>
  </asx:abap>

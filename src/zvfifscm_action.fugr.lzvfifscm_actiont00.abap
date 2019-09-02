@@ -1,6 +1,6 @@
 *---------------------------------------------------------------------*
 *    view related data declarations
-*   generation date: 05.08.2019 at 17:05:19
+*   generation date: 28.08.2019 at 17:31:45
 *   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 *...processing: ZVFIFSCM_ACTION.................................*

@@ -1,6 +1,6 @@
 *---------------------------------------------------------------------*
 *    program for:   VIEWFRAME_ZVFIFSCM_REAS_AC
-*   generation date: 28.08.2019 at 16:53:43
+*   generation date: 28.08.2019 at 17:29:16
 *   view maintenance generator version: #001407#
 *---------------------------------------------------------------------*
 FUNCTION VIEWFRAME_ZVFIFSCM_REAS_AC    .
