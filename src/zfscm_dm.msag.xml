@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZFSCM_DM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for Dispute Management</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Required Action &amp; not assigned to Reason code &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Reason Code &amp; not assigned to Category &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Invalid Reason Code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Invalid Required Action</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No Reason Code assigned to Category &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSCM_DM</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No Required Action assigned to Reason Code &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

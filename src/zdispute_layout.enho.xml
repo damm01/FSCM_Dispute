@@ -18,9 +18,15 @@
      <ENHMODE>D</ENHMODE>
      <FULL_NAME>\TY:CL_SCMG_CASE_TYPE_CUST\ME:READ_ATTR_PROFILE\SE:END\EI</FULL_NAME>
      <SOURCE>
+      <item/>
+      <item>*Check if the exit framework is active</item>
+      <item>IF zcl_it_exit=&gt;check_active( iv_exitnumber = zif_it_exit=&gt;no_0022 ).</item>
+      <item/>
       <item>if sy-cprog eq &apos;SAPMHTTP&apos;.</item>
       <item>re_attr_profile_id = &apos;ZFIN0001&apos;.</item>
       <item>endif.</item>
+      <item/>
+      <item>endif. &quot;check user framework</item>
      </SOURCE>
     </ENH_HOOK_IMPL>
    </ENHANCEMENTS>
@@ -29,7 +35,13 @@
      <FULL_NAME>\TY:CL_SCMG_CASE_TYPE_CUST\ME:READ_ATTR_PROFILE\SE:END\EI</FULL_NAME>
      <SPACES>
       <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
+      <item>0</item>
       <item>2</item>
+      <item>0</item>
+      <item>0</item>
       <item>0</item>
      </SPACES>
     </item>

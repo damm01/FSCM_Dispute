@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZFSCM_DM_CLOSING_DATE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATUM</DOMNAME>
+    <HEADLEN>27</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Closed at Date (DD.MM.YYYY)</DDTEXT>
+    <REPTEXT>Closed At Date (DD.MM.YYYY)</REPTEXT>
+    <SCRTEXT_S>Completed</SCRTEXT_S>
+    <SCRTEXT_M>Closed At Date</SCRTEXT_M>
+    <SCRTEXT_L>Closed At Date (DD.MM.YYYY)</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

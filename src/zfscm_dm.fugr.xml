@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function group - Dispute Case Management</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFSCM_DMF01</SOBJ_NAME>
+    <SOBJ_NAME>LZFSCM_DMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFSCM_DM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZUDM_DISPUTE_OIP_TEXT_READ</FUNCNAME>
+     <SHORT_TEXT>Texterkennung Klärungsfälle</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TABNAME</PARAMETER>
+       <TYP>TABNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FIELDNAME</PARAMETER>
+       <TYP>FIELDNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DATAELEMENTNAME</PARAMETER>
+       <TYP>ROLLNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DOMAINNAME</PARAMETER>
+       <TYP>DOMNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>MODE</PARAMETER>
+       <TYP>C</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FIELDVALUE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ANY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>RECORD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ANY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>RECORD_SPECIFIED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FLAG_X</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LANGUAGE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-LANGU</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>VALUESOURCE_TABLES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TFIELDVAL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>SPECIAL_PARAMETERS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TFIELDVAL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>TEXT_EXISTS_TYPE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>I</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>TEXT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TEXT255</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>TEXT_FOR_VALUE_READ</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FLAG_X</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>LIKE_TABNAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TABNAME</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>LIKE_FIELDNAME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FIELDNAME</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>REQUIRED_FIELDS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TTFIELDNAME</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>REQUIRED_TABLE_FIELDS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TTABFIELD</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TABNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Name</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FIELDNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Field Name</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATAELEMENTNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data element (semantic domain)</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOMAINNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Domain Name</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MODE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FIELDVALUE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RECORD</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RECORD_SPECIFIED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicator</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LANGUAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Language Key of Current Text Environment</STEXT>
+       <INDEX> 009</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VALUESOURCE_TABLES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Field/Val.</STEXT>
+       <INDEX> 010</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SPECIAL_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Field/Val.</STEXT>
+       <INDEX> 011</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TEXT_EXISTS_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 012</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TEXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text, 255 characters</STEXT>
+       <INDEX> 013</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TEXT_FOR_VALUE_READ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Indicator</STEXT>
+       <INDEX> 014</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LIKE_TABNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Name</STEXT>
+       <INDEX> 015</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LIKE_FIELDNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Field Name</STEXT>
+       <INDEX> 016</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REQUIRED_FIELDS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Quantity of Field Names</STEXT>
+       <INDEX> 017</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>REQUIRED_TABLE_FIELDS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table/Field</STEXT>
+       <INDEX> 018</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
